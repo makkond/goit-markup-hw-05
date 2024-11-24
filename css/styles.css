@@ -530,7 +530,6 @@ img {
 
 .form {
   margin-left: auto;
-  gap: 24px;
 }
 
 .form-subscribe {
@@ -538,6 +537,7 @@ img {
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  gap: 24px;
 }
 
 .form-in-footer {
