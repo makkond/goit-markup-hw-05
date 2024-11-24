@@ -816,6 +816,8 @@ textarea::placeholder {
 input[type='checkbox']:checked + .accept .modal-form-chechbox {
   background-color: #404bbf;
   border-color: #404bbf;
+  border: none;
+  fill: #f4f4fd;
 }
 
 .modal-form-agremeent {
@@ -869,11 +871,6 @@ input[type='checkbox']:checked + .accept .modal-form-chechbox .icon-checkbox {
 
   transition: 150ms ease-in-out;
   transition-property: opacity;
-}
-
-input[type='checkbox']:checked + .modal-form-chechbox {
-  border: none;
-  fill: #f4f4fd;
 }
 
 .privacy-link {
