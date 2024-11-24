@@ -565,6 +565,7 @@ input::placeholder {
 
 .icon-send {
   margin-left: 16px;
+  fill: #fff;
 }
 
 .form-in-footer:focus {
@@ -829,10 +830,6 @@ input[type='checkbox']:checked + .accept .modal-form-chechbox {
   letter-spacing: 0.04em;
   color: #8e8f99;
 
-  margin-top: 8px;
-
-  display: inline-flex;
-  align-items: center;
   cursor: pointer;
 }
 
@@ -874,7 +871,7 @@ input[type='checkbox']:checked + .accept .modal-form-chechbox .icon-checkbox {
   transition-property: opacity;
 }
 
-input[type='checkbox']:checked .modal-form-chechbox {
+input[type='checkbox']:checked + .modal-form-chechbox {
   border: none;
   fill: #f4f4fd;
 }
